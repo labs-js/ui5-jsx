@@ -1,0 +1,3 @@
+<VBox xmlns="sap.m">
+    <SuperControl xmlns="better.ui5.control" /> 
+</VBox>

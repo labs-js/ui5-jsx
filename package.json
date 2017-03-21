@@ -1,0 +1,16 @@
+{
+  "name": "ui5-jsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tojsx": "./node_modules/babel-cli/bin/babel.js ./control/*.js -d ./dist",
+    "dev": "cp -r ./** /Users/admin/sites/kuge/ui5-jsx"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-jsx": "^2.0.0"
+  }
+}
